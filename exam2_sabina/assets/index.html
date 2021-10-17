@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monticello</title>
+    <link href="/assets/styles/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+</head>
+
+<body>
+    <section class="main">
+        <div class="navbar">
+            <div class="navbar__logo">
+                <img src="/assets/img/Logo.png" alt="monticello_logo" width="240px">
+
+            </div>
+            <div class="navbar__links">
+                <a href="??"> <span class="dot"></span> ABOUT US </a>
+                <a href=".projects"> <span class="dot"></span> PROJECTS </a>
+                <a href="??"><span class="dot"></span> NEWS </a>
+                <a href="??"><span class="dot"></span> CONTACT </a>
+            </div>
+            <div class="navbar__icons">
+                <img src="/assets/img/Social_icons.png" alt="icons" width="160px">
+
+
+            </div>
+
+        </div>
+
+        <div class="main__text">
+            <h1> SIMPLE & MODERN</h1>
+            <p>WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
+            <span class="material-icons arrow">
+                arrow_drop_down_circle
+            </span>
+
+        </div>
+
+    </section>
+
+    <section class="projects">
+        <h2 class="projects__title"> WHAT WE DO</h2>
+        <div>
+            <div class="projects__section">
+                <img class="img1" src="/assets/img/blue rectangle.png" width="580px" height="470px">
+
+                <img class="img2" src="/assets/img/topofbluerectangle.png" width="630px" height="470px">
+                <div class="projects__text">
+                    <h4> ONE WORLD</h4>
+                    <h2>TRADE CENTER</h2>
+                    <p>Increasing prosperity in our lives can be accomplished<br /> by having the right frame of mind.
+                        The
+                        truth
+                        is, our <br /> thoughts are very powerful.</p>
+                    <button> MORE DETAILS</button>
+                    <p>
+                        New York City, United States - 1776 feet
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="projects2">
+            <div class="projects2__section">
+                <div class="projects2__text">
+                    <h4> INTERNATIONAL</h4>
+                    <h2>COMMERCE CENTRE</h2>
+                    <p>
+                        Successful businesses have many things in common,<br /> today we’ll look at the big ‘R’ of
+                        recognition
+                        and how a <br /> digital advertising network may help.
+                    </p>
+                    <button> MORE DETAILS</button>
+                    <p>
+                        Hong Kong - 1588 feet
+                    </p>
+                </div>
+                <img class="img1" src="/assets/img/violetrectangle.png" width="630px" height="470px">
+                <img class="img2" src="/assets/img/topofvioletrectangle.png" width="630px" height="470px">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="news">
+        <h1> LATEST NEWS</h1>
+        <div class="news__imgs">
+            <div> <img src="/assets/img/Article 1.png" alt="art1" width="350x" height="500px"></div>
+            <div><img src="/assets/img/Article 2.png" alt="art2" width="350px" height="500px"></div>
+            <div><img src="/assets/img/Article 3.png" alt="art3" width="350px" height="500px"></div>
+        </div>
+
+    </section>
+
+    <section class="gallery">
+        <h1> GALLERY</h1>
+        <div class="gallery__pictures">
+            <div><img src="/assets/img/galleryBig.png" width="580px" height="425px" alt=""></div>
+            <div class="gallery__pictures--small">
+                <div><img src="/assets/img/gallerySmall1.png" width="280px" alt=""></div>
+                <div><img src="/assets/img/gallerySmall2.png" width="280px" alt=""></div>
+            </div>
+            <div class="gallery__pictures--small2">
+                <div><img src="/assets/img/gallerysmall3.png" width="280px" alt=""></div>
+                <div><img src="/assets/img/gallerysmall4.png" width="280px" alt=""></div>
+            </div>
+
+
+        </div>
+
+        <button> SEE MORE</button>
+
+
+
+    </section>
+
+
+    <section class="contact">
+        <div id="map">
+
+        </div>
+
+        <div class="contact__background">
+
+
+        </div>
+
+        <form action="/" method="GET" id="form">
+            <div class="formtable">
+                <h1> GET IN TOUCH</h1>
+
+                <div>
+                    <p><span class="material-icons">
+                            location_on
+                        </span> 91 Nolan Extensions Suite 670<br />
+
+                        <span class="material-icons">
+                            call
+                        </span> +001 356-868-2454 <br />
+
+                        <span class="material-icons">
+                            local_post_office
+                        </span> montichello@service.com <br />
+
+                        <span class="material-icons">
+                            schedule
+                        </span> From 07:05AM to 19:30PM
+                    </p> <br />
+                </div>
+                <div>
+                    <label for="name"> </label>
+                    <input type="text" name="Name" id="firstName" placeholder="Name">
+                    <label for="email" id="text"> </label>
+                    <input type="email" name="Email" id="email" placeholder="Email" onkeydown="validation()">
+                    <button type="submit">SUBMIT</button>
+
+
+                </div>
+
+            </div>
+        </form>
+
+
+
+    </section>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASUaJzg8o4-TYuXirEt3q_DuqXxQxaWZ8&callback=initMap&libraries=&v=weekly"
+        async></script>
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"> </script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script type="text/javascript" src="js/index.js"> </script>
+
+
+</body>
+
+</html>
